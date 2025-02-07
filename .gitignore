@@ -1,3 +1,10 @@
+# ignore duckdb
+*.duckdb
+*.wal
+
+# ignore secrets, virtual environments and typical python compilation artifacts
+secrets.toml
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

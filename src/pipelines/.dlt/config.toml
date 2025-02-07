@@ -1,0 +1,8 @@
+[runtime]
+log_level="WARNING"
+dlthub_telemetry = false
+
+[sources.rest_api]
+resources = ["a", "b", "c"]
+[sources.rest_api.client]
+key = "value"
